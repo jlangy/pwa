@@ -30,37 +30,37 @@ export default function MyApp({ Component, pageProps }) {
         />
         <link rel="apple-touch-icon" href="/apple-icon.png"></link>
         <link
-          href="/apple_splash_2048.png"
+          href="/apple_splash_2048.jpg"
           sizes="2048x2732"
           rel="apple-touch-startup-image"
         />
         <link
-          href="/apple_splash_1668.png"
+          href="/apple_splash_1668.jpg"
           sizes="1668x2224"
           rel="apple-touch-startup-image"
         />
         <link
-          href="/apple_splash_1536.png"
+          href="/apple_splash_1536.jpg"
           sizes="1536x2048"
           rel="apple-touch-startup-image"
         />
         <link
-          href="/apple_splash_1125.png"
+          href="/apple_splash_1125.jpg"
           sizes="1125x2436"
           rel="apple-touch-startup-image"
         />
         <link
-          href="/apple_splash_1242.png"
+          href="/apple_splash_1242.jpg"
           sizes="1242x2208"
           rel="apple-touch-startup-image"
         />
         <link
-          href="/apple_splash_750.png"
+          href="/apple_splash_750.jpg"
           sizes="750x1334"
           rel="apple-touch-startup-image"
         />
         <link
-          href="/apple_splash_640.png"
+          href="/apple_splash_640.jpg"
           sizes="640x1136"
           rel="apple-touch-startup-image"
         />
