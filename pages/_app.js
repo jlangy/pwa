@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import '../styles/globals.css'
+import Head from "next/head";
+import "../styles/globals.css";
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -29,9 +29,44 @@ export default function MyApp({ Component, pageProps }) {
           sizes="32x32"
         />
         <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+        <link
+          href="/apple_splash_2048.png"
+          sizes="2048x2732"
+          rel="apple-touch-startup-image"
+        />
+        <link
+          href="/apple_splash_1668.png"
+          sizes="1668x2224"
+          rel="apple-touch-startup-image"
+        />
+        <link
+          href="/apple_splash_1536.png"
+          sizes="1536x2048"
+          rel="apple-touch-startup-image"
+        />
+        <link
+          href="/apple_splash_1125.png"
+          sizes="1125x2436"
+          rel="apple-touch-startup-image"
+        />
+        <link
+          href="/apple_splash_1242.png"
+          sizes="1242x2208"
+          rel="apple-touch-startup-image"
+        />
+        <link
+          href="/apple_splash_750.png"
+          sizes="750x1334"
+          rel="apple-touch-startup-image"
+        />
+        <link
+          href="/apple_splash_640.png"
+          sizes="640x1136"
+          rel="apple-touch-startup-image"
+        />
         <meta name="theme-color" content="#317EFB" />
       </Head>
       <Component {...pageProps} />
     </>
-  )
+  );
 }
