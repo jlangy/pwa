@@ -17,6 +17,13 @@ a {
 
 .swiper-container {
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   overflow: hidden;
+}
+
+.title {
+  height: 10vh;
+  margin: 0; 
+  padding: 0;
+  text-align: center;
 }

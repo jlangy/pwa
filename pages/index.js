@@ -11,11 +11,11 @@ import 'swiper/css/navigation';
 export default function Home() {
   const geolocation = useGeolocation();
   const { height, width } = useWindowDimensions();
-  const imageHeight = Math.round(height * 0.8)
+  const imageHeight = Math.round(height * 0.9)
 
   return (
     <div className={styles.container}>
-      <h1>Local Art</h1>
+      <h1 className="title">Local Art</h1>
       <main>
         {/* <p>
          {`You are at ${geolocation.latitude}, ${geolocation.longitude}`}
