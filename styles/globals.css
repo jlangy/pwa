@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.swiper-container {
+  width: 100vw;
+  height: 80vh;
+  overflow: hidden;
+}
